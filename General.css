@@ -1,0 +1,10 @@
+  .Entire-div {
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        align-items: center;
+        margin-top: 0px;
+        width: 499px;
+        
+      }
+ 

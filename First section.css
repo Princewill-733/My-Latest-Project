@@ -1,0 +1,75 @@
+     .What-we-serve {
+      font-size: 4px;
+      font-weight: 500;
+      color: rgb(28, 93, 161);
+      margin-top: 15px;
+     }
+     
+     .our-services {
+      display: flex;
+      font-size: 14px;
+      font-weight: 500;
+      margin: 0px 0px 15px 0px;
+     }
+     
+     .box-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10px;
+      margin-bottom: 5px;
+       
+      }
+
+      .relative-div {
+        position:relative;
+        background-color: rgb(37, 92, 227);
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        border:none;
+        
+    
+      }
+
+      .image-in-div {
+        position: absolute;
+        left: 7px;
+        top: 7px;
+        width: 20px;
+        height: 20px;   
+      }
+
+      .div-1, .div-2, .div-3  {
+        display: flex;
+        border-color:rgb(242, 242, 240) ;
+        border-style: solid;
+        border-width:1px;
+        border-radius: 3px;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 5px 5px 5px;
+        width: 130px;
+      }
+      .text-header {
+        font-weight: 600;
+        font-size: 9px;
+        margin-bottom: 6px;
+      }
+      .text-body {
+        font-weight: 500;
+        font-size: 7px;
+        color: rgb(182, 175, 174);
+        margin-top: 0px;
+        text-align: center;
+        line-height:9px;
+      }
+      button {
+        margin: 10px;
+        background-color: rgb(37, 92, 221);
+        color: white;
+         border: none;
+         border-radius: 2px;
+         padding: 7px 15px;
+         font-size: 8px;
+         margin-bottom: 30px;
+      }
